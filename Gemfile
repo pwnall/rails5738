@@ -4,7 +4,7 @@ gem 'rails',     github: 'rails/rails'
 gem 'arel',      github: 'rails/arel'
 
 # Use mysql as the database for Active Record
-gem 'mysql2'
+gem 'mysql2', github: 'brianmario/mysql2', ref: '3ca5204'
 
 # Use edge version of sprockets-rails
 gem 'sprockets-rails', github: 'rails/sprockets-rails'
